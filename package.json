@@ -1,0 +1,40 @@
+{
+    "name": "vscode-altair",
+    "displayName": "Altair Theme",
+    "description": "An elegant theme that goes along with your VS Code.",
+    "version": "0.0.1",
+    "publisher": "yxuko",
+    "author": "John Doe [@yxuko]",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vscode/vscode-altair.git"
+    },
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "homepage": "https://yxuko.github.io/projects/vscode-altair/",
+    "icon": "assets/logo.png",
+    "galleryBanner": {
+      "color": "#11131C",
+      "theme": "dark"
+    },
+    "contributes": {
+        "commands": [
+          {
+            "command": "altair.setAccentColor",
+            "title": "Set Accent Color",
+            "category": "Altair Theme"
+          }
+        ],
+        "themes": [
+          {
+            "label": "Altair Theme",
+            "path": "./themes/Altair-Theme-Default.json",
+            "uiTheme": "vs-dark"
+          }
+        ]
+      }
+}
